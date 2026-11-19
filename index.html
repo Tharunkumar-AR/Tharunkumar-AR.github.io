@@ -445,13 +445,13 @@ footer.site a:hover { color: var(--orange); }
           <div class="facts-row" data-reveal>
             <div><b data-count>18+</b><span>projects across mechanical and materials engineering</span></div>
             <div><b data-count>2</b><span>summers on Starship, 2026 and 2027</span></div>
-            <div><b>TPS</b><span>alloy R&amp;D for thermal protection</span></div>
+            <div><b data-count>Top 5%</b><span>of interns, with a return offer</span></div>
           </div>
           <p class="note">Project details are restricted under ITAR, export control and NDA.</p>
         </div>
         <ol class="mission" data-reveal>
           <li class="next"><span class="when">Summer 2027</span><div><strong>Mechanical &amp; Materials Engineering Intern</strong><p>Returning to the same role for a second summer.</p></div></li>
-          <li><span class="when">Summer 2026</span><div><strong>Mechanical &amp; Materials Engineering Intern</strong><p>Hawthorne, CA. Starship materials and reliability testing, and alloy development for thermal protection systems.</p></div></li>
+          <li><span class="when">Summer 2026</span><div><strong>Mechanical &amp; Materials Engineering Intern</strong><p>Hawthorne, CA. High-pressure materials test systems, fixtures for severe environments, high-temperature seals, and a novel metals process now being explored for Starship.</p></div></li>
         </ol>
       </div>
     </div>
@@ -572,7 +572,7 @@ footer.site a:hover { color: var(--orange); }
       <ul class="links">
         <li><a href="mailto:artharun@stanford.edu"><span>Email</span><span>artharun@stanford.edu</span></a></li>
         <li><a href="https://www.linkedin.com/in/tharunkumarar/" target="_blank" rel="noopener"><span>LinkedIn</span><span>in/tharunkumarar</span></a></li>
-        <li><a href="https://docs.google.com/document/d/1dn41x_PVc6EOTZzRacvCNOFeyNfKqKS_t6_QZ2-zbKo/edit?usp=sharing" target="_blank" rel="noopener"><span>CFD research paper</span><span>Google Docs</span></a></li>
+        <li><a href="https://docs.google.com/document/d/1dn41x_PVc6EOTZzRacvCNOFeyNfKqKS_t6_QZ2-zbKo/edit?usp=sharing" target="_blank" rel="noopener"><span>CFD research project</span><span>Google Docs</span></a></li>
       </ul>
     </div>
   </section>
@@ -668,18 +668,18 @@ const PROJECTS = [
   {
     slug: "nacelle-cfd", featured: true,
     title: "Engine placement and lift, studied with CFD", season: "High school", areas: ["aero"],
-    context: "Independent research",
+    context: "Independent research project",
     summary: "How the position of an engine nacelle on an aircraft changes pressure distribution and lift.",
-    intro: "An independent research project asking where an aircraft’s engines should sit for the best aerodynamic efficiency. I ran CFD simulations across nacelle positions and analyzed how pressure distributions and resulting forces changed.",
+    intro: "A self-directed research project asking where an aircraft’s engines should sit for the best aerodynamic efficiency. I set up CFD simulations across nacelle positions and analyzed how the pressure distributions and resulting forces changed.",
     hook: ["5,850+", "CFD data points analyzed"],
-    learned: "This was my first real research project. I learned how to set up CFD simulations and check them, how to make sense of thousands of data points, and how small changes in geometry ripple into pressure fields and lift.",
+    learned: "This was my first research project. I learned how to set up CFD simulations and check them, how to make sense of thousands of data points, and how small changes in geometry ripple into pressure fields and lift.",
     body: [
       "Using computational fluid dynamics, I modeled a wing with the engine nacelle placed at different positions and compared the pressure fields and forces each produced.",
       "The analysis showed that lift optimization is tied to where the nacelle sits relative to the wing — specifically, to the high-pressure zones the nacelle creates around it."
     ],
     role: "Sole researcher",
     tools: ["SimScale", "Fusion 360 CFD", "Data analysis"],
-    links: [["Read the full paper", CFD_URL]]
+    links: [["Read the project write-up", CFD_URL]]
   },
   {
     slug: "centerstage", featured: true,
@@ -727,14 +727,14 @@ const PROJECTS = [
     title: "Arcade game on custom circuitry", season: "2023", areas: ["sw", "el"],
     context: "UT Austin, CS Academy for All",
     summary: "A working arcade game built from scratch on Arduino microcontrollers and C++.",
-    intro: "A research program at the University of Texas looking at how microcontrollers can be used in generative AI and natural language processing. As part of it, I built a complete arcade game from the hardware up.",
+    intro: "A summer research program at the University of Texas looking at how microcontrollers can be used in generative AI and natural language processing. As part of it, I built a complete arcade game from the hardware up.",
     hook: ["Arduino + C++", "built from scratch"],
     body: [
       "I designed the circuitry, wired the controls and display to Arduino microcontrollers, and wrote the game logic in C++.",
       "The research side of the program explored where small microcontrollers fit in AI and NLP applications."
     ],
     learned: "Building from the circuit up taught me where hardware and code meet, and how much of debugging lives right at that boundary.",
-    role: "Researcher",
+    role: "Student researcher (summer program)",
     tools: ["Arduino", "C++", "Circuit design"]
   },
   {
@@ -810,15 +810,15 @@ const PROJECTS = [
 const EXPERIENCE = [
   { when: "Summer 2027", what: "Mechanical & Materials Engineering Intern", org: "SpaceX", note: "Returning to the same role for a second summer.", next: true },
   { when: "Summer 2026", what: "Mechanical & Materials Engineering Intern", org: "SpaceX · Hawthorne, CA",
-    bullets: ["Worked on 18+ projects across mechanical and materials engineering for Starship", "Starship materials and reliability testing", "Alloy development R&D for thermal protection system (TPS) applications"],
+    bullets: ["Designed and built high-pressure systems for materials testing, owning component selection, layout, assembly and integration", "Designed dynamic test fixtures with moving parts for severe environments (corrosive media, extreme loads, thermal cycling), including sensor integration, wire harness routing and ergonomics for daily technician use", "Designed gasket and seal implementations for high-temperature hardware through design iteration and material selection", "Led full-stack R&D on a novel metals process and proved its viability; it’s now being explored for scale-up on Starship", "Commissioned multiple multi-million-dollar metallurgical and furnace systems, managed the facilities teams that installed them, and wrote SOPs and trained operators for 6 systems", "Built Python tooling to manage alloy and polymer R&D data", "Rated in the top 5% of interns and received a return offer for summer 2027"],
     tag: "Details restricted under ITAR, export control and NDA" },
   { when: "2026 – present", what: "Designer & Developer", org: "Poise",
     bullets: ["Building a posture and eye-break coach for Mac and iPhone that uses AirPods head tracking", "Designed it to run entirely on-device, with no account, analytics or servers", "Preparing the Mac App Store release, with iPhone to follow"], link: "#p-poise" },
   { when: "Summer 2025", what: "General Technician Apprentice", org: "Suzuki Motors · Neyveli, India",
-    bullets: ["Serviced Maruti Suzuki vehicles: combustion engine maintenance, electric and hybrid powertrain repairs, brake and hydraulic work", "Ran firmware diagnostics", "Ran the lubricant and brake stations on my own by the end of the program"] },
+    bullets: ["Serviced Maruti Suzuki vehicles across combustion, hybrid and electric powertrains, including engine maintenance and powertrain repairs", "Serviced brake and hydraulic systems and ran firmware diagnostics to isolate electrical and control faults", "Ran the lubrication and brake service stations on my own by the end of the term", "Saw firsthand how mechanical systems wear, fail and get maintained in real-world use"] },
   { when: "2024", what: "Mechanical Lead", org: "BAE Systems FOCUS · Austin, TX",
     bullets: ["Led mechanical design of an autonomous rover with endpoint stabilization and omnidirectional movement", "Applied FEA, design for manufacturability and CAD under industry mentorship", "Won Most Innovative Design for the competition’s only virtual forebar"], link: "#p-focus-rover" },
-  { when: "2023", what: "Researcher", org: "UT Austin, CS Academy for All",
+  { when: "2023", what: "Student Researcher (summer program)", org: "UT Austin, CS Academy for All",
     bullets: ["Explored microcontroller applications in generative AI and natural language processing", "Built a fully working arcade game on custom circuitry with Arduino and C++"], link: "#p-arcade-game" }
 ];
 

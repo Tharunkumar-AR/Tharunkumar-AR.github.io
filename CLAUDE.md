@@ -139,6 +139,12 @@ Projects in `PROJECTS`, in array order: `poise`, `into-the-deep`, `nacelle-cfd`,
 - **into-the-deep**, 2024–25. Enriched from `Resources/Engineering Portfolio 2024-2025.pdf` (hardware pp. 7–12): 8 images in `assets/img/into-the-deep/`, challenges, progression (30 → 158 pts, hardware-only) and an intake-time fix to 1.1 s.
 - **centerstage**, 2023–24. Enriched from `Resources/Engineering Portfolio 2023-2024.pdf` (hardware pp. 7–12): 8 images, challenges, iteration, progression (14 → 86; includes one software step, labelled as such).
 - **powerplay**, 2022–23. Enriched from `Resources/RG Engineering Portfolio 2022-2023.pdf` (hardware pp. 7–12): 7 images, challenges, iteration, progression (34 → 113). The arm text is clarified: only V3 is machined aluminum.
+- **nacelle-cfd**: framed as a self-directed **research project**, not a "paper". Link label is "Read the project write-up"; the contact row says "CFD research project".
+- **EXPERIENCE** (Nov 2026):
+  - SpaceX 2026 bullets come from the owner's own résumé text: high-pressure systems, dynamic fixtures, seals, novel metals process, furnace commissioning/SOPs, Python tooling, top 5% + return offer.
+  - SpaceX panel stats: 18+ projects / 2 summers / Top 5% of interns.
+  - Suzuki bullets were also rewritten from the owner's text.
+  - The UT Austin title is "Student Researcher (summer program)". The site uses US spelling, so "program", not "programme".
 - Recognition lists for all three robots are **not** in the PDFs. They came from the original site and haven't been verified against these sources.
 
 ## Known issues / open questions
