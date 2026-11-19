@@ -145,6 +145,7 @@ Projects in `PROJECTS`, in array order: `poise`, `into-the-deep`, `nacelle-cfd`,
   - SpaceX panel stats: 18+ projects / 2 summers / Top 5% of interns.
   - **Never link TPS with alloy development.** Mention them as separate items ("TPS R&D, alloy and process development"), never as "TPS alloy development".
   - Suzuki bullets were also rewritten from the owner's text.
+  - Added an FTC Team 4545 Ouroboros entry (2021–25, "Project Manager & Hardware Lead"), placed after Suzuki. Its facts come from `LEADERSHIP` and `HONORS`, and it links to `#p-centerstage`.
   - The UT Austin title is "Student Researcher (summer program)". The site uses US spelling, so "program", not "programme".
 - Recognition lists for all three robots are **not** in the PDFs. They came from the original site and haven't been verified against these sources.
 
