@@ -143,6 +143,7 @@ Projects in `PROJECTS`, in array order: `poise`, `into-the-deep`, `nacelle-cfd`,
 - **EXPERIENCE** (Nov 2026):
   - SpaceX 2026 bullets come from the owner's own résumé text: high-pressure systems, dynamic fixtures, seals, novel metals process, furnace commissioning/SOPs, Python tooling, top 5% + return offer.
   - SpaceX panel stats: 18+ projects / 2 summers / Top 5% of interns.
+  - **Never link TPS with alloy development.** Mention them as separate items ("TPS R&D, alloy and process development"), never as "TPS alloy development".
   - Suzuki bullets were also rewritten from the owner's text.
   - The UT Austin title is "Student Researcher (summer program)". The site uses US spelling, so "program", not "programme".
 - Recognition lists for all three robots are **not** in the PDFs. They came from the original site and haven't been verified against these sources.
